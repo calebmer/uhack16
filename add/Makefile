@@ -1,5 +1,3 @@
-SYNC_PORT=4096
-
 dist/app.js: App.elm
 	elm make $< --output $@
 
